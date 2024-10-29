@@ -1,9 +1,10 @@
 body{
-  font-size:3em;
-  color:aqua;
+  font-size:1em;
 }
 
 #header{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  
 }
