@@ -1,1 +1,23 @@
-
+.box{
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+}
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+  }
+a   {
+    color: black;
+    cursor: pointer;
+    text-decoration: dashed;
+}
+.imgcadre{
+ 
+    width: 100%;
+    height: auto;
+   
+  }
