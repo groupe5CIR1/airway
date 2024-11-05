@@ -3,11 +3,13 @@
     height: 200px;
    border: 2px black solid;
    text-align: center;
+   margin-left: 5%;
+   margin-right: 5%;
    
    vertical-align: middle;
 }
 ul {
-    display: inline-flex;
+    display: flex;
     list-style: none;
     padding: 0;
   }
@@ -23,8 +25,13 @@ a   {
    
   }
 body{
+    margin-left: 15%;
+    margin-right: 15%;
     background-image: url("../images/Mont\ Blanc\ .jpg");
+    background-size: cover;
+
 }
 .fond{
     background-color: white;
+
 }
