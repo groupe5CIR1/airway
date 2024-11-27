@@ -1,0 +1,38 @@
+.box{
+    width: 400px;
+    height: 300px;
+   border: 2px black solid;
+   text-align: center;
+   margin-left: 5%;
+   margin-right: 5%;
+   
+   vertical-align: middle;
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+a   {
+    color: black;
+    cursor: pointer;
+    text-decoration: dashed;
+}
+.imgcadre{
+ 
+    width: 100%;
+    height: auto;
+   
+  }
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url("../images/Mont\ Blanc\ .jpg");
+    background-size: cover;
+
+}
+.fond{
+    background-color: white;
+
+
+}
