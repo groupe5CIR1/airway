@@ -1,6 +1,6 @@
 .box{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
    border: 2px black solid;
    text-align: center;
    margin-left: 5%;
@@ -33,5 +33,6 @@ body{
 }
 .fond{
     background-color: white;
+
 
 }
