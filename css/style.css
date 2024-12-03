@@ -2,12 +2,43 @@ body{
   font-size:1em;
 }
 
-#header{
-  position: fixed;
-  width: 90%;
-  margin-left: 5%;
+
+.nav_box a:link,
+.nav_box a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav_box a:hover{
+  color:#ffffff;
+  background-color: #222222;
+  /*---à revoir---*/
+  font-size: 1.05em;
+  width: 35%;
+}
+
+.box1{
+  width: 30%;
+  height: 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: cyan;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#header{
+  font-size:1em;
+  width: 90em;
+  height: 3em;
+  margin-left: 0%;
+  margin-top: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  align-items:stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
 }
