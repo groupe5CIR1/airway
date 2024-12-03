@@ -25,6 +25,7 @@ a   {
   }
 body{
     background-image: url("../images/Mont\ Blanc\ .jpg");
+    background-size: cover;
   }
 .body{
     margin-left: 15%;

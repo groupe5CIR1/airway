@@ -1,3 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    color: #333;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+}
+.back-button {
+    color: #000;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.product {
+    display: flex;
+    align-items: center;
+}
+.product img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.product-info {
+    flex: 1;
+}
+.product-info h2 {
+    margin: 0;
+}
+.stars {
+    margin: 10px 0;
+}
+.stars span {
+    font-size: 20px;
+    color: #ddd;
+}
+.price {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
 .box{
     width: 400px;
     height: 300px;
@@ -19,20 +69,64 @@ a   {
     text-decoration: dashed;
 }
 .imgcadre{
- 
     width: 100%;
     height: auto;
    
   }
 body{
-    margin-left: 15%;
-    margin-right: 15%;
     background-image: url("../images/Mont\ Blanc\ .jpg");
     background-size: cover;
-
+  }
+.body{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #ffffff;
 }
 .fond{
     background-color: white;
 
 
 }
+.head{
+    font-size:1em;
+  }
+  
+  a:link{
+    color:#ffffff;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #222222;
+  }
+  
+  #header{
+    width: 90em;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+  }
+  
+  .box1{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  .aa{
+    color: black;
+  }
