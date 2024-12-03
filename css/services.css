@@ -1,82 +1,110 @@
-.box{
-    width: 400px;
-    height: 300px;
-   border: 2px black solid;
-   text-align: center;
-   margin-left: 5%;
-   margin-right: 5%;
-   
-   vertical-align: middle;
-}
-ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-  }
-a   {
-    color: black;
-    cursor: pointer;
-    text-decoration: dashed;
-}
-.imgcadre{
-    width: 100%;
-    height: auto;
-   
-  }
 body{
-    background-image: url("../images/Mont\ Blanc\ .jpg");
-    background-size: cover;
-  }
-.body{
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: #ffffff;
+  background-image: url("../images/Mont\ Blanc\ .jpg");
 }
+
+.box{
+  width: 400px;
+  height: 300px;
+  border: 2px black solid;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+  vertical-align: middle;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li a {
+  color: black;
+  cursor: pointer;
+  text-decoration: dashed;
+}
+
+.imgcadre {
+  width: 100%;
+  height: auto;
+}
+
+.body {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #ffffff;
+}
+
 .fond{
-    background-color: white;
-
-
+  background-color: white;
 }
+
 .head{
-    font-size:1em;
-  }
+  font-size:1em;
+}
   
-  a:link{
-    color:#ffffff;
-    text-decoration: none;
-  }
-  
-  a:visited{
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  a:hover{
-    color:#ffffff;
-    text-decoration: none;
-    background-color: #222222;
-  }
-  
-  #header{
-    width: 90em;
-    margin-left: 0%;
-    margin-top: 0%;
-    padding-left: 2%;
-    padding-right: 2%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #000000;
-  }
-  
-  .box1{
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1em;
-  }
-  .aa{
-    color: black;
-  }
+.aa{
+  color: black;
+}
+
+
+/*--------------------Navbar start--------------------*/
+
+.nav_box {
+  box-sizing: border-box;
+  width: 10em;
+}
+
+.nav_box a {
+  text-align: center;
+  padding: 0.8em;
+  transition-property: color background-color font-weight;
+  transition-duration: .1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0ms;
+}
+
+.nav_box a:link,
+.nav_box a:visited {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.nav_box a:hover{
+  color:#dddddd;
+  font-weight: bold;
+  background-color:#111111;
+}
+
+
+.box1{
+  width: 40%;
+  height: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box2 {
+  padding-left:4%;
+}
+
+#header{
+  font-size:1em;
+  width: 90em;
+  height: 3em;
+  margin-left: 0%;
+  margin-top: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  align-items:stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+/*--------------------Navbar end--------------------*/
