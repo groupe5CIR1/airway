@@ -1,17 +1,20 @@
 body{
   background-image: url("../images/Mont\ Blanc\ .jpg");
-  background-size: cover;
 }
 
-.box{
+.box {
   width: 400px;
   height: 300px;
   border: 2px black solid;
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
-  
+  border-radius: 10px;
   vertical-align: middle;
+}
+
+h1 {
+  margin-left: 5%;
 }
 
 ul {
@@ -47,10 +50,41 @@ li a {
   
 .aa{
   color: black;
+  font-size: 1.2em;
+}
+
+a:link, a:visited {
+  color: #000000;
+  text-decoration: none;
 }
 
 
-/*--------------------Navbar start--------------------*/
+/*------------------Menu items----------------------*/
+
+#menu_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top:.5em;
+  padding-bottom:.5em;
+  background-color: #eeeeee;
+  align-items: center;
+  align-items: stretch;
+  text-align: center;
+}
+
+#menu_items li {
+  box-sizing: border-box;
+  width: 20em;
+  height: 1.5em;
+}
+
+#menu_items li :hover{
+  font-size: 1.25em;
+}
+
+
+/*---------------------Navbar----------------------*/
 
 .nav_box {
   box-sizing: border-box;
@@ -74,8 +108,9 @@ li a {
 
 .nav_box a:hover{
   color:#dddddd;
-  font-weight: bold;
+  font-weight: 200;
   background-color:#111111;
+  font-size: 1.02em;
 }
 
 
@@ -107,5 +142,3 @@ li a {
   justify-content: space-between;
   background-color: #000000;
 }
-
-/*--------------------Navbar end--------------------*/

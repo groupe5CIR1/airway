@@ -48,7 +48,7 @@ body{
   background-image: url('../images/image1.jpeg'); 
 }
 
-/*--------------------Navbar start--------------------*/
+/*---------------------Navbar----------------------*/
 
 .nav_box {
   box-sizing: border-box;
@@ -72,8 +72,9 @@ body{
 
 .nav_box a:hover{
   color:#dddddd;
-  font-weight: bold;
+  font-weight: 200;
   background-color:#111111;
+  font-size: 1.02em;
 }
 
 
@@ -105,5 +106,3 @@ body{
   justify-content: space-between;
   background-color: #000000;
 }
-
-/*--------------------Navbar end--------------------*/
