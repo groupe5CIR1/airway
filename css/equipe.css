@@ -52,59 +52,58 @@ body{
 /*--------------------Navbar start--------------------*/
 
 .nav_box {
-    box-sizing: border-box;
-    width: 10em;
-  }
-  
-  .nav_box a {
-    text-align: center;
-    padding: 0.8em;
-    transition-property: color background-color font-weight;
-    transition-duration: .1s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0ms;
-  }
-  
-  .nav_box a:link,
-  .nav_box a:visited {
-    color: #eeeeee;
-    text-decoration: none;
-  }
-  
-  .nav_box a:hover{
-    color:#dddddd;
-    font-weight: bold;
-    background-color:#111111;
-  }
-  
-  
-  .box1{
-    width: 40%;
-    height: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .box2 {
-    padding-left:4%;
-  }
-  
-  #header{
-    font-size:1em;
-    width: 90em;
-    height: 3em;
-    margin-left: 0%;
-    margin-top: 0%;
-    padding-left: 2%;
-    padding-right: 2%;
-    align-items:stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #000000;
-  }
-  
-  /*--------------------Navbar end--------------------*/
+  box-sizing: border-box;
+  width: 10em;
+}
+
+.nav_box a {
+  text-align: center;
+  padding: 0.8em;
+  transition-property: color background-color font-weight;
+  transition-duration: .1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0ms;
+}
+
+.nav_box a:link,
+.nav_box a:visited {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.nav_box a:hover{
+  color:#dddddd;
+  font-weight: 200;
+  background-color:#111111;
+  font-size: 1.02em;
+}
+
+
+.box1{
+  width: 40%;
+  height: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box2 {
+  padding-left:4%;
+}
+
+#header{
+  font-size:1em;
+  width: 97%;
+  height: 3em;
+  margin-left: 0%;
+  margin-top: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  align-items:stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+}
