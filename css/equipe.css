@@ -1,52 +1,57 @@
 body{
-    font-size:1em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url("../images/Mont\ Blanc\ .jpg");
-    background-size: cover;
-  }
-  .fond{
-    background-color: white;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  .main-content h1 {
-    font-size: 22px;
-    color: #333;
-  }
-  
-  .main-content p {
-    font-size: 18px;
-    color: #666;
-    line-height: 1.6;
-  }
-  
-  .main-content {
-    flex: 2;
-    background-color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .content {
-    display: flex;
-    flex-direction: row;
-  }
+  font-size:1em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../images/Mont\ Blanc\ .jpg");
+  background-size: cover;
+  margin:0;
+  padding:0;
+}
 
-  .image-valentin, .image-nicolas {
-    flex: 1;
-    background-size: cover;
-    min-height: 50vh;
-    border-radius: 50%;
-  }
+.fond{
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.main-content h1 {
+  font-size: 22px;
+  color: #333;
+}
   
-  .image-valentin {
-    background-image: url('../images/valentin.jpeg'); 
-  }
+.main-content p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
   
-  .image-nicolas {
-    background-image: url('../images/nicolas.jpeg'); 
-  }
+.main-content {
+  flex: 2;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-valentin, .image-nicolas {
+  flex: 1;
+  background-size: cover;
+  min-height: 50vh;
+  border-radius: 50%;
+}
+  
+.image-valentin {
+  background-image: url('../images/valentin.jpeg'); 
+}
+  
+.image-nicolas {
+  background-image: url('../images/nicolas.jpeg'); 
+}
 
 
 /*--------------------Navbar start--------------------*/
