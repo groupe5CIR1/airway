@@ -1,6 +1,51 @@
 body{
   font-size:1em;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../images/Mont\ Blanc\ .jpg");
+  background-size: cover;
+}
+.fond{
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.main-content h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.main-content p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.main-content {
+  flex: 2;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-left, .image-right {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.image-left {
+  background-image: url('../images/image2.jpeg'); 
+}
+
+.image-right {
+  background-image: url('../images/image1.jpeg'); 
 }
 
 /*--------------------Navbar start--------------------*/

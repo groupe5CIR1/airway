@@ -1,5 +1,6 @@
 body{
   background-image: url("../images/Mont\ Blanc\ .jpg");
+  background-size: cover;
 }
 
 .box{
