@@ -33,11 +33,11 @@ body{
     flex-direction: row;
   }
 
-  .image-valentin, .image-nicolas {
-    flex: 1;
+  .image-valentin, .image-nicolas, .image-italien {
+    min-height: 20px;
     background-size: cover;
-    min-height: 50vh;
     border-radius: 50%;
+    display: flex;
   }
   
   .image-valentin {
@@ -48,6 +48,9 @@ body{
     background-image: url('../images/nicolas.jpeg'); 
   }
 
+  .image-italien {
+    background-image: url(../images/italien.jpeg);
+  }
 
 /*--------------------Navbar start--------------------*/
 
