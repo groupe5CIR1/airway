@@ -1,58 +1,69 @@
-body{
-    font-size:1em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url("../images/Mont\ Blanc\ .jpg");
-    background-size: cover;
-  }
-  .fond{
-    background-color: white;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  .main-content h1 {
-    font-size: 22px;
-    color: #333;
-  }
-  
-  .main-content p {
-    font-size: 18px;
-    color: #666;
-    line-height: 1.6;
-  }
-  
-  .main-content {
-    flex: 2;
-    background-color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .content {
-    display: flex;
-    flex-direction: row;
-  }
+body {
+  font-size:1em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../images/Mont\ Blanc\ .jpg");
+  background-size: cover;
+  margin:0;
+  padding:0;
+}
 
-  .image-valentin, .image-nicolas, .image-italien {
-    min-height: 20px;
-    background-size: cover;
-    border-radius: 50%;
-    display: flex;
-  }
-  
-  .image-valentin {
-    background-image: url('../images/valentin.jpeg'); 
-  }
-  
-  .image-nicolas {
-    background-image: url('../images/nicolas.jpeg'); 
-  }
+.fond{
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.content {
+  padding: 20px;
+  padding-top:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+em {
+  font-weight: 700;
+}
+
+.image-valentin, .image-nicolas {
+  width:20%;
+  height:20%;
+  border-radius: 50%;
+}
+
+.equipe {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content div h2 {
+  font-size: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.content p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 3em;
+}
 
   .image-italien {
     background-image: url(../images/italien.jpeg);
   }
 
-/*--------------------Navbar start--------------------*/
+/*--------------------Navbar--------------------*/
 
 .nav_box {
   box-sizing: border-box;
