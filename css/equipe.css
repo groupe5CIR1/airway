@@ -15,6 +15,7 @@ body {
 
 .content {
   padding: 20px;
+  padding-top:0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,9 +23,14 @@ body {
   flex-direction: column;
 }
 
-h2 {
-  font-size: 1.5em;
+h1 {
+  font-size: 2em;
   text-align: center;
+  margin-bottom: 1em;
+}
+
+em {
+  font-weight: 700;
 }
 
 .image-valentin, .image-nicolas {
