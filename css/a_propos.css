@@ -38,6 +38,10 @@ body{
   flex-direction: row;
 }
 
+h1 {
+    text-align: center;
+}
+
 /*--------------------Navbar start--------------------*/
 
 .nav_box {
