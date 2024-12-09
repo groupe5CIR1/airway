@@ -24,6 +24,11 @@ body{
   color: #666;
 }
 
+footer{
+  background-color: #ffffff;
+  display: flex;
+}
+
 .contact {
   display: flex;
   align-items: center;
