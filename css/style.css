@@ -34,6 +34,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .image-left, .image-right {
@@ -49,6 +50,10 @@ body{
 
 .image-right {
   background-image: url('../images/image1.jpeg'); 
+}
+
+video {
+  width:100%;
 }
 
 /*---------------------Navbar----------------------*/
