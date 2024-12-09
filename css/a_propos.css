@@ -41,12 +41,15 @@ body{
 h1 {
     text-align: center;
 }
-.paragraph{
-
-}
 .titres{
     font-weight: bold;
 }
+
+.fin{
+  font-style: oblique;
+  font-weight: 600;
+}
+
 /*--------------------Navbar start--------------------*/
 
 .nav_box {
