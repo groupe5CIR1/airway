@@ -9,8 +9,8 @@ body {
 
 
 .container {
-  max-width: 1200px;
-  margin: 20px auto;
+  margin-left: 10%;
+  margin-right: 10%;
   background: rgba(255, 255, 255, 0.9);
   padding: 20px;
   border-radius: 8px;
@@ -26,11 +26,11 @@ body {
 .product {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .product img {
-  width: 300px;
-  height: auto;
+  width: 20em;
   border-radius: 8px;
   margin-right: 20px;
 }
@@ -66,19 +66,11 @@ ul {
 
 .container a {
   color: black;
-  cursor: pointer;
-  text-decoration: dashed;
 }
 
-.imgcadre{
+.imgcadre {
   width: 100%;
   height: auto;
-}
-
-.body{
-  margin-left: 15%;
-  margin-right: 15%;
-  background-color: #ffffff;
 }
 
 .fond{

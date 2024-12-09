@@ -9,7 +9,7 @@ body{
 
 .content {
   background-color: white;
-  padding: 20px;
+  padding: 2em;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -22,13 +22,14 @@ body{
 .content p {
   font-size: 18px;
   color: #666;
-  line-height: 1.6;
 }
 
 .contact {
   display: flex;
   align-items: center;
   margin: 15px 0;
+  flex-grow:1;
+  flex-wrap: wrap;
 }
 
 .contact img {
