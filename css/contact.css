@@ -72,6 +72,7 @@ footer{
   justify-content: space-between;
   padding-left:5em;
   flex-wrap: wrap;
+  margin-top: 15em;
 }
 
 /*---------------------Navbar----------------------*/
