@@ -9,8 +9,8 @@ body {
 
 
 .container {
-  max-width: 1200px;
-  margin: 20px auto;
+  margin-left: 10%;
+  margin-right: 10%;
   background: rgba(255, 255, 255, 0.9);
   padding: 20px;
   border-radius: 8px;
@@ -26,11 +26,11 @@ body {
 .product {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .product img {
-  width: 300px;
-  height: auto;
+  width: 20em;
   border-radius: 8px;
   margin-right: 20px;
 }
@@ -66,19 +66,11 @@ ul {
 
 .container a {
   color: black;
-  cursor: pointer;
-  text-decoration: dashed;
 }
 
-.imgcadre{
+.imgcadre {
   width: 100%;
   height: auto;
-}
-
-.body{
-  margin-left: 15%;
-  margin-right: 15%;
-  background-color: #ffffff;
 }
 
 .fond{
@@ -99,7 +91,7 @@ a:link, a:visited {
 }
 
 /*---------------------Navbar----------------------*/
-  
+
 .nav_box {
   box-sizing: border-box;
   width: 10em;
@@ -120,7 +112,7 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-.nav_box a:hover{
+.nav_box a:hover {
   color:#dddddd;
   font-weight: 200;
   background-color:#111111;
@@ -128,30 +120,30 @@ a:link, a:visited {
 }
 
 
-.box1{
+.box1 {
   width: 40%;
   height: 1em;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
- }
+  flex-grow: 1;
+}
 
 .box2 {
-  padding-left:4%;
+  padding-right:2%;
 }
 
 #header{
   font-size:1em;
-  width: 97%;
+  width: 100%;
   height: 3em;
-  margin-left: 0%;
-  margin-top: 0%;
+  margin: 0%;
   padding-left: 2%;
   padding-right: 2%;
-  align-items:stretch;
   display: flex;
   flex-direction: row;
+  flex-wrap:wrap;
   align-items: center;
   justify-content: space-between;
   background-color: #000000;
