@@ -57,9 +57,10 @@ $(document).ready(function() {
             // Désactive les écouteurs d'événements du curseur personnalisé
             $(document).off('mousemove');
             $('body').off('click');
+
+            //Supprime le loader et réactive la possibilité de scroll
             $('.loader').remove();
-            $('#main-content').css('margin','0');
-            $('#main-content').css('padding','0');
+            $('body').css('overflow', 'auto');
         });
     });
 });
@@ -73,6 +74,8 @@ setTimeout(function() {
             $('.mouse').remove();
             $(document).off('mousemove');
             $('body').off('click');
+            $('.loader').remove();
+            $('body').css('overflow', 'auto');
         });
     }
 }, 5000);

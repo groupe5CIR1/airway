@@ -1,17 +1,17 @@
 /*--------------- https://webdeasy.de/en/css-loading-animations/ ------------------*/
 
 * {
-  cursor: none
+  cursor: none;
 }
 
 body {
-  overflow: hidden
+  overflow: hidden;
 }
-  
+
 .loading {
   background-color: #FFF;
   width: 100%;
-  display: fixed
+  display: fixed;
 }
 
 .loading img {
@@ -28,19 +28,16 @@ body {
   position: absolute;
   animation: mouseAnimation 2.0s infinite ease-in-out alternate;
   left: 0;
-  top: 0
+  top: 0;
 }
 
 @keyframes mouseAnimation {
-  
   from {
-      width: 25px;
-      height: 25px
+    width: 25px;
+    height: 25px;
   }
-  
   to {
-      width: 15px;
-      height: 15px
+    width: 15px;
+    height: 15px;
   }
-  
 }
