@@ -3,109 +3,127 @@
 
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="../css/services.css">
     <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="../images/favicon.png">
-    <script src="../js/general.js" defer></script>
     <title> Nos produits </title>
+    <link href="../css/services.css" rel="stylesheet">
+    <link href="../css/loader.css" rel="stylesheet">
   </head>
 
   <body oncopy="noCopy()">
     
-    <nav id="header">
-      <div class="nav_box box0"> <a href="index.html"> Airway </a> </div>
-      <div class="box1">
-        <div class="nav_box box1_0"> <a href="index.html"> Accueil </a> </div>
-        <div class="nav_box box1_1"> <a href="services.html"> Services </a> </div>
-        <div class="nav_box box1_2"> <a href="equipe.html"> Equipe </a> </div>
-        <div class="nav_box box1_3"> <a href="contact.html"> Contact </a> </div>
+    <div class="loader" style="display: block;">
+      <div class="loading">
+          <img src="http://a.top4top.net/p_1990j031.gif" alt="Loading">
       </div>
-      <div class="nav_box box2"> <a href="a_propos.html"> A propos </a> </div>
-    </nav>
+      <div class="mouse original"></div>
+    </div>
 
-    <br/><br/>
 
-    <div class="body">
-      <ul id="menu_items">
-        <li><a class="aa" href="#Best-sells">Meilleures ventes &emsp;</a></li>
-        <li><a class="aa" href="#New">Les Nouveautés &emsp;</a></li>
-        <li><a class="aa" href="#team">Les choix de l'équipe &emsp;</a></li>
-      </ul>
 
-      <h1 id="Best-sells">Les meilleures ventes</h1>
 
-      <ul class="content">
-        <li class="box">
-          <a class="aa" href="./pages de ventes/himalaya.html">Air Himalayien </a>
-          <img class="imgcadre" src="../images/bocal himalaya.jpeg" alt="image bocal himalaya">34.99€
-        </li>
-        <li class="box">
-          <a class="aa" href="./pages de ventes/peru.html">Air Péruvien</a> 
-          <img class="imgcadre" src="../images/bocal peru.jpeg" alt="image bocal aire perou">14.99€
+    <div id="main-content" style="display: none;">
+
+      <nav id="header">
+        <div class="nav_box box0"> <a href="index.html"> Airway </a> </div>
+        <div class="box1">
+          <div class="nav_box box1_0"> <a href="index.html"> Accueil </a> </div>
+          <div class="nav_box box1_1"> <a href="services.html"> Services </a> </div>
+          <div class="nav_box box1_2"> <a href="equipe.html"> Equipe </a> </div>
+          <div class="nav_box box1_3"> <a href="contact.html"> Contact </a> </div>
+        </div>
+        <div class="nav_box box2"> <a href="a_propos.html"> A propos </a> </div>
+      </nav>
+
+      <br/><br/>
+
+      <div class="body">
+        <ul id="menu_items">
+          <li><a class="aa" href="#Best-sells">Meilleures ventes &emsp;</a></li>
+          <li><a class="aa" href="#New">Les Nouveautés &emsp;</a></li>
+          <li><a class="aa" href="#team">Les choix de l'équipe &emsp;</a></li>
+        </ul>
+
+        <h1 id="Best-sells">Les meilleures ventes</h1>
+
+        <ul class="content">
+          <li class="box">
+            <a class="aa" href="./pages de ventes/himalaya.html">Air Himalayien </a>
+            <img class="imgcadre" src="../images/bocal himalaya.jpeg" alt="image bocal himalaya">34.99€
           </li>
-        <li class="box">
-          <a class="aa" href="./pages de ventes/tibet.html">Air du Tibet</a> 
-          <img class="imgcadre" src="../images/aire du tibet.jpg" alt="image de l'aire du tibet">19.99€
-        </li>
-      </ul>
+          <li class="box">
+            <a class="aa" href="./pages de ventes/peru.html">Air Péruvien</a> 
+            <img class="imgcadre" src="../images/bocal peru.jpeg" alt="image bocal aire perou">14.99€
+          </li>
+          <li class="box">
+            <a class="aa" href="./pages de ventes/tibet.html">Air du Tibet</a> 
+            <img class="imgcadre" src="../images/aire du tibet.jpg" alt="image de l'aire du tibet">19.99€
+          </li>
+        </ul>
+        
+        
+        <h1 id="New">Les dernières nouveautés</h1>
+
+        <ul class="content">
+          <li class="box">
+            <a class="aa" href="./pages de ventes/himalaya.html">Air Himalayien</a> 
+            <img class="imgcadre" src="../images/bocal himalaya.jpeg" alt="image bocal himalaya">34.99€
+          </li>
+          <li class="box">
+            <a class="aa" href="./pages de ventes/canada.html">Air Canadien</a> 
+            <img class="imgcadre" src="../images/bocal canada.jpeg" alt="image bocal canadien">17.99€
+          </li>
+          <li class="box">
+            <a class="aa" href="./pages de ventes/tibet.html">Air du Tibet</a> 
+            <img class="imgcadre" src="../images/aire du tibet.jpg" alt="image de l'aire du tibet">19.99€
+          </li>
+        </ul>
+
+
+        <h1 id="team">Les choix de l'équipe</h1>
+
+        <ul class="content">
+          <li class="box">
+            <a class="aa" href="./pages de ventes/peru.html">Air Péruvien</a> 
+            <img class="imgcadre" src="../images/bocal peru.jpeg" alt="image bocal aire perou">14.99€
+          </li>
+          <li class="box">
+            <a class="aa" href="./pages de ventes/paris.html">Air Parisien</a> 
+            <img class="imgcadre" src="../images/bocal paris.jpeg" alt="image aire paris">4.99€
+          </li>
+          <li class="box">
+            <a class="aa" href="./pages de ventes/mont-blanc.html">Air du mont blanc</a> 
+            <img class="imgcadre" src="../images/bocal mont blanc.jpeg" alt="Mont blanc">24.99€
+          </li>
+        </ul>
+
+      </div>
       
-      
-      <h1 id="New">Les dernières nouveautés</h1>
+      <footer>
+        <div class="contact">Airway</div>
+        
+        <div class="contact">
+          <img src="../images/telepone.png" alt="Icone téléphone">
+          <div>05 59 32 69 15</div>
+        </div>
 
-      <ul class="content">
-        <li class="box">
-          <a class="aa" href="./pages de ventes/himalaya.html">Air Himalayien</a> 
-          <img class="imgcadre" src="../images/bocal himalaya.jpeg" alt="image bocal himalaya">34.99€
-        </li>
-        <li class="box">
-          <a class="aa" href="./pages de ventes/canada.html">Air Canadien</a> 
-          <img class="imgcadre" src="../images/bocal canada.jpeg" alt="image bocal canadien">17.99€
-        </li>
-        <li class="box">
-          <a class="aa" href="./pages de ventes/tibet.html">Air du Tibet</a> 
-          <img class="imgcadre" src="../images/aire du tibet.jpg" alt="image de l'aire du tibet">19.99€
-        </li>
-      </ul>
+        <div class="contact">
+          <img src="../images/adresse.png" alt="Icone adresse">
+          <div>Agence Airway <br> 10, rue du Skibidi <br>44300 Nantes</div>
+        </div>
 
-
-      <h1 id="team">Les choix de l'équipe</h1>
-
-      <ul class="content">
-        <li class="box">
-          <a class="aa" href="./pages de ventes/peru.html">Air Péruvien</a> 
-          <img class="imgcadre" src="../images/bocal peru.jpeg" alt="image bocal aire perou">14.99€
-        </li>
-        <li class="box">
-          <a class="aa" href="./pages de ventes/paris.html">Air Parisien</a> 
-          <img class="imgcadre" src="../images/bocal paris.jpeg" alt="image aire paris">4.99€
-        </li>
-        <li class="box">
-          <a class="aa" href="./pages de ventes/mont-blanc.html">Air du mont blanc</a> 
-          <img class="imgcadre" src="../images/bocal mont blanc.jpeg" alt="Mont blanc">24.99€
-        </li>
-      </ul>
+        <div class="contact">
+          <img src="../images/email.png" alt="Icone email">
+          Vous souhaitez nous contacter ? <br>
+          <a href="mailto:airway-assistance@airway.com"> airway-assistance@airway.com</a>
+        </div>
+      </footer>
 
     </div>
     
-    <footer>
-      <div class="contact">Airway</div>
-      
-      <div class="contact">
-        <img src="../images/telepone.png" alt="Icone téléphone">
-        <div>05 59 32 69 15</div>
-      </div>
 
-      <div class="contact">
-        <img src="../images/adresse.png" alt="Icone adresse">
-        <div>Agence Airway <br> 10, rue du Skibidi <br>44300 Nantes</div>
-      </div>
-
-      <div class="contact">
-        <img src="../images/email.png" alt="Icone email">
-        Vous souhaitez nous contacter ? <br>  
-        <a href="mailto:airway-assistance@airway.com"> airway-assistance@airway.com</a>  
-      </div>
-    </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="../js/loader.js" defer></script>
+    <script src="../js/general.js" defer></script>
   </body>
 </html>

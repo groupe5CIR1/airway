@@ -10,86 +10,93 @@
 
   <body oncopy="noCopy()">
 
-    <nav id="header">
-      <div class="nav_box box0"> <a href="index.html"> Airway </a> </div>
-      <div class="box1">
-        <div class="nav_box box1_0"> <a href="index.html"> Accueil </a> </div>
-        <div class="nav_box box1_1"> <a href="services.html"> Services </a> </div>
-        <div class="nav_box box1_2"> <a href="equipe.html"> Equipe </a> </div>
-        <div class="nav_box box1_3"> <a href="contact.html"> Contact </a> </div>
-      </div>
-      <div class="nav_box box2"> <a href="a_propos.html"> A propos </a> </div>
-    </nav>
 
-    <br/><br/>
 
-    <div class="content">
-      <h1 class="titre">Pour nous contacter , c'est simple :</h1>
+    
 
-      <div class="contact">
-        <img src="../images/telepone.png" alt="Icone téléphone">
-        <div>05 59 32 69 15</div>
-      </div>
+    <div id="main-content" style="display: none;">
 
-      <div class="contact">
-        <img src="../images/adresse.png" alt="Icone adresse">
-        <div>Agence Airway <br> 10, rue du Skibidi <br>44300 Nantes</div>
-      </div>
+      <nav id="header">
+        <div class="nav_box box0"> <a href="index.html"> Airway </a> </div>
+        <div class="box1">
+          <div class="nav_box box1_0"> <a href="index.html"> Accueil </a> </div>
+          <div class="nav_box box1_1"> <a href="services.html"> Services </a> </div>
+          <div class="nav_box box1_2"> <a href="equipe.html"> Equipe </a> </div>
+          <div class="nav_box box1_3"> <a href="contact.html"> Contact </a> </div>
+        </div>
+        <div class="nav_box box2"> <a href="a_propos.html"> A propos </a> </div>
+      </nav>
 
-      <div class="contact">
-        <img src="../images/email.png" alt="Icone email">
-        Vous souhaitez nous contacter ? <br>  
-        <a href="mailto:airway-assistance@airway.com"> airway-assistance@airway.com</a>  
-      </div>
+      <br/><br/>
 
-      <h1>Vous pouvez aussi completer ce formulaire</h1>
-      <form action="" method="get">
+      <div class="content">
+        <h1 class="titre">Pour nous contacter , c'est simple :</h1>
 
-        <div class="forms">
-          <label for="name">Nom :</label>
-          <input type="text" name="name" id="name" required>
+        <div class="contact">
+          <img src="../images/telepone.png" alt="Icone téléphone">
+          <div>05 59 32 69 15</div>
         </div>
 
-        <div class="forms">
-          <label for="name">Prenom :</label>
-          <input type="text" name="prenom" id="prenom" required>
+        <div class="contact">
+          <img src="../images/adresse.png" alt="Icone adresse">
+          <div>Agence Airway <br> 10, rue du Skibidi <br>44300 Nantes</div>
         </div>
 
-        <div class="forms">
-          <label for="email"> Adresse mail :</label>
-          <input type="text" name="email" id="email" required>
+        <div class="contact">
+          <img src="../images/email.png" alt="Icone email">
+          Vous souhaitez nous contacter ? <br>  
+          <a href="mailto:airway-assistance@airway.com"> airway-assistance@airway.com</a>  
         </div>
 
-        <div class="forms">
-          <label for="text"> Message :</label>
-          <textarea name="comments" cols="30" rows="5" placeholder="Votre commentaire"></textarea>
+        <h1>Vous pouvez aussi completer ce formulaire</h1>
+        <form action="" method="get">
+
+          <div class="forms">
+            <label for="name">Nom :</label>
+            <input type="text" name="name" id="name" required>
+          </div>
+
+          <div class="forms">
+            <label for="name">Prenom :</label>
+            <input type="text" name="prenom" id="prenom" required>
+          </div>
+
+          <div class="forms">
+            <label for="email"> Adresse mail :</label>
+            <input type="text" name="email" id="email" required>
+          </div>
+
+          <div class="forms">
+            <label for="text"> Message :</label>
+            <textarea name="comments" cols="30" rows="5" placeholder="Votre commentaire"></textarea>
+          </div>
+
+          <input class="forms" type="submit" name="btn-action" value="Envoyer">
+        </form>
+
+      </div>
+
+      <footer>
+        <div class="contact">Airway</div>
+        
+        <div class="contact">
+          <img src="../images/telepone.png" alt="Icone téléphone">
+          <div>05 59 32 69 15</div>
         </div>
 
-        <input class="forms" type="submit" name="btn-action" value="Envoyer">
-      </form>
+        <div class="contact">
+          <img src="../images/adresse.png" alt="Icone adresse">
+          <div>Agence Airway <br> 10, rue du Skibidi <br>44300 Nantes</div>
+        </div>
 
+        <div class="contact">
+          <img src="../images/email.png" alt="Icone email">
+          Vous souhaitez nous contacter ? <br>  
+          <a href="mailto:airway-assistance@airway.com"> airway-assistance@airway.com</a>  
+        </div>
+      </footer>
+    
     </div>
 
-    <footer>
-      <div class="contact">Airway</div>
-      
-      <div class="contact">
-        <img src="../images/telepone.png" alt="Icone téléphone">
-        <div>05 59 32 69 15</div>
-      </div>
-
-      <div class="contact">
-        <img src="../images/adresse.png" alt="Icone adresse">
-        <div>Agence Airway <br> 10, rue du Skibidi <br>44300 Nantes</div>
-      </div>
-
-      <div class="contact">
-        <img src="../images/email.png" alt="Icone email">
-        Vous souhaitez nous contacter ? <br>  
-        <a href="mailto:airway-assistance@airway.com"> airway-assistance@airway.com</a>  
-      </div>
-    </footer>
-    
   </body>
-
 </html>
