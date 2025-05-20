@@ -2,70 +2,87 @@
 <html lang="fr">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/pages-ventes.css">
     <meta charset="utf-8">
-    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
-    <script src="../../js/general.js" defer></script>
     <title> Nos produits </title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="../../css/pages-ventes.css">
+    <link rel="stylesheet" href="../../css/loader.css">
   </head>
+
   <body oncopy="noCopy()">
-    <div class="head">
-      <div class="fond">
 
-        <nav id="header">
-          <div class="nav_box box0"> <a href="../index.html"> Airway </a> </div>
-          <div class="box1">
-            <div class="nav_box box1_0"> <a href="../index.html"> Accueil </a> </div>
-            <div class="nav_box box1_1"> <a href="../services.html"> Services </a> </div>
-            <div class="nav_box box1_2"> <a href="../equipe.html"> Equipe </a> </div>
-            <div class="nav_box box1_3"> <a href="../contact.html"> Contact </a> </div>
-          </div>
-          <div class="nav_box box2"> <a href="../a_propos.html"> A propos </a> </div>
-        </nav>
-
+    <div class="loader" style="display: block;">
+      <div class="loading">
+        <img src="http://a.top4top.net/p_1990j031.gif" alt="Loading">
       </div>
+      <div class="mouse original"></div>
     </div>
 
-    <div class="container">
-      <a href="../services.html" class="back-button">← Retour</a>
+    <div id="main-content" style="display: none;">
+      <div class="head">
+        <div class="fond">
 
-      <div class="product">
-        <img src="../../images/bocal mont blanc.jpeg" alt="Mont-blanc">
+          <nav id="header">
+            <div class="nav_box box0"> <a href="../index.html"> Airway </a> </div>
+            <div class="box1">
+              <div class="nav_box box1_0"> <a href="../index.html"> Accueil </a> </div>
+              <div class="nav_box box1_1"> <a href="../services.html"> Services </a> </div>
+              <div class="nav_box box1_2"> <a href="../equipe.html"> Equipe </a> </div>
+              <div class="nav_box box1_3"> <a href="../contact.html"> Contact </a> </div>
+            </div>
+            <div class="nav_box box2"> <a href="../a_propos.html"> A propos </a> </div>
+          </nav>
 
-        <div class="product-info">
-          <h2>Air du Mont-blanc</h2>
-
-          <div class="stars">
-            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-          </div>
-
-          <p>Cet air vient du massif montagneux proche du Mont-Blanc, là-bas l'air est beaucoup moins pollué qu'autre part dans le monde.</p>
-
-          <div class="price">24.99 €</div>
-          <h3>Commentaires :</h3>
         </div>
       </div>
+
+      <br/><br/>
+
+      <div class="container">
+        <a href="../services.html" class="back-button">← Retour</a>
+
+        <div class="product">
+          <img src="../../images/bocal mont blanc.jpeg" alt="Mont-blanc">
+
+          <div class="product-info">
+            <h2>Air du Mont-blanc</h2>
+
+            <div class="stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+
+            <p>Cet air vient du massif montagneux proche du Mont-Blanc, là-bas l'air est beaucoup moins pollué qu'autre part dans le monde.</p>
+
+            <div class="price">24.99 €</div>
+            <h3>Commentaires :</h3>
+          </div>
+        </div>
+      </div>
+    
+      <footer>
+        <div class="contact">Airway</div>
+      
+        <div class="contact">
+          <img src="../../images/telepone.png" alt="Icone téléphone">
+          <div>05 59 32 69 15</div>
+        </div>
+
+        <div class="contact">
+          <img src="../../images/adresse.png" alt="Icone adresse">
+          <div>Agence Airway <br> 10, rue du Skibidi <br>44300 Nantes</div>
+        </div>
+
+        <div class="contact">
+          <img src="../../images/email.png" alt="Icone email">
+          Vous souhaitez nous contacter ? <br>  
+          <a href="mailto:airway-assistance@airway.com"> airway-assistance@airway.com</a>  
+        </div>
+      </footer>
     </div>
     
-    <footer>
-      <div class="contact">Airway</div>
-      
-      <div class="contact">
-        <img src="../../images/telepone.png" alt="Icone téléphone">
-        <div>05 59 32 69 15</div>
-      </div>
 
-      <div class="contact">
-        <img src="../../images/adresse.png" alt="Icone adresse">
-        <div>Agence Airway <br> 10, rue du Skibidi <br>44300 Nantes</div>
-      </div>
-
-      <div class="contact">
-        <img src="../../images/email.png" alt="Icone email">
-        Vous souhaitez nous contacter ? <br>  
-        <a href="mailto:airway-assistance@airway.com"> airway-assistance@airway.com</a>  
-      </div>
-    </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="../../js/general.js" defer></script>
+    <script src="../../js/loader.js" defer></script>
   </body>
 </html>
