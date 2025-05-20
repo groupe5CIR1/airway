@@ -89,6 +89,13 @@ footer{
   margin-top: 15em;
 }
 
+.box-contact {
+  display: grid;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
 
 /*------------------Menu items----------------------*/
 

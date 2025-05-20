@@ -59,10 +59,18 @@ video {
 .contact {
   display: flex;
   align-items: center;
-  margin: 15px 0;
+  margin: 10px 0;
   flex-grow: 1;
   flex-wrap: wrap;
 }
+
+.box-contact {
+  display: grid;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
 
 .contact img {
   width: 50px;

@@ -55,6 +55,13 @@ h1 {
   flex-wrap: wrap;
 }
 
+.box-contact {
+  display: grid;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+} 
+
 .contact img {
   width: 50px;
   height: 50px;
