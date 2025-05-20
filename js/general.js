@@ -14,14 +14,14 @@ function updateClock() {
     document.getElementById('clock').textContent = time;
   }
 
-  // Chronomètre
-  let secondsElapsed = 0;
-  function updateTimer() {
-    secondsElapsed++;
-    document.getElementById('timer').textContent = secondsElapsed + 's';
-  }
+// Chronomètre
+let secondsElapsed = 0;
+function updateTimer() {
+  secondsElapsed++;
+  document.getElementById('timer').textContent = secondsElapsed + 's';
+}
 
-  // Démarrage
-  updateClock();
-  setInterval(updateClock, 1000); // met à jour chaque seconde
-  setInterval(updateTimer, 1000); // incrémente chaque seconde
+// Démarrage
+updateClock();
+setInterval(updateClock, 1000); // met à jour chaque seconde
+setInterval(updateTimer, 1000); // incrémente chaque seconde
