@@ -3,10 +3,8 @@ function noCopy() {
 };
 
 function equipe(){
-    const conf = confirm("Souhaitez-vous continuer ?");
-    if (conf == true) {
-        open("equipe.html");
-        
+    if (confirm("Souhaitez-vous continuer ?")) {
+        window.open("equipe.html");
     };
 };
 
