@@ -54,7 +54,7 @@ $(document).ready(function() {
             // Supprime le curseur personnalisé
             $('.mouse').remove();
             
-            // Désactive les écouteurs d'événements du curseur personnalisé
+            // Désactive les event listeners du curseur personnalisé
             $(document).off('mousemove');
             $('body').off('click');
 
