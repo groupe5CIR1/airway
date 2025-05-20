@@ -61,6 +61,10 @@ $(document).ready(function() {
             //Supprime le loader et réactive la possibilité de scroll
             $('.loader').remove();
             $('body').css('overflow', 'auto');
+
+            //Ajoute image en background
+            $('body').css('background-image','url("../images/Mont\ Blanc\ .jpg")');
+            $('body').css('background-size','cover');
         });
     });
 });
@@ -76,6 +80,8 @@ setTimeout(function() {
             $('body').off('click');
             $('.loader').remove();
             $('body').css('overflow', 'auto');
+            $('body').css('background-image','url("../images/Mont\ Blanc\ .jpg")');
+            $('body').css('background-size','cover');
         });
     }
 }, 5000);

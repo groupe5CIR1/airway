@@ -1,10 +1,20 @@
 body {
   font-size:1em;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-image: url("../images/Mont\ Blanc\ .jpg");
-  background-size: cover;
   margin:0;
   padding:0;
+}
+
+.main-content {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .fond{
