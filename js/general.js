@@ -12,7 +12,7 @@ function updateClock() {
     const now = new Date();
     const time = now.toLocaleTimeString('fr-FR');
     document.getElementById('clock').textContent = time;
-  }
+}
 
 
 function timer() {
