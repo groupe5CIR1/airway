@@ -1,168 +1,142 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-  <head>
-    <meta charset="utf-8">
-    <title> A propos </title>
-    <link rel="stylesheet" href="../css/a_propos.css">
-    <link rel="stylesheet" href="../css/loader.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title> A propos </title>
+  <link rel="stylesheet" href="../css/a_propos.css">
+  <link rel="stylesheet" href="../css/loader.css">
+</head>
 
-  <body oncopy="noCopy()">
+<body oncopy="noCopy()">
 
-    <div class="loader" style="display: block;">
-      <div class="loading">
-        <img src="http://a.top4top.net/p_1990j031.gif" alt="Loading">
+  <div class="loader" style="display: block;">
+    <div class="loading">
+      <img src="http://a.top4top.net/p_1990j031.gif" alt="Loading">
+    </div>
+    <div class="mouse original"></div>
+  </div>
+
+  <div id="main-content" style="display: none;">
+
+    <nav id="header">
+      <div class="nav_box box0"> <a href="index.html"> Airway </a> </div>
+      <div class="box1">
+        <div class="nav_box box1_0"> <a href="index.html"> Accueil </a> </div>
+        <div class="nav_box box1_1"> <a href="services.html"> Services </a> </div>
+        <div class="nav_box box1_2"> <a href="#header" onclick="equipe()"> Equipe </a> </div>
+        <div class="nav_box box1_3"> <a href="contact.html"> Contact </a> </div>
       </div>
-      <div class="mouse original"></div>
+      <div class="nav_box box2"> <a href="a_propos.html"> A propos </a> </div>
+    </nav>
+
+    <br/><br/>
+
+    <div class="content">
+      <h1>Qui nous sommes :</h1>
+      <div class="missions-container">
+        <!-- Mission 1 -->
+        <div class="mission" data-image="../images/missions/alpes.jpg" data-modal-title="Expédition Alpine 2018">
+          <h2 class="mission-title">2018 : La naissance de l'idée</h2>
+          <div class="mission-content">
+            <ul>
+              <li>Expédition dans le massif du Mont-Blanc</li>
+              <li>Collecte des premiers échantillons d'air pur</li>
+              <li>Rencontre avec des experts en qualité de l'air</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mission 2 -->
+        <div class="mission" data-image="../images/missions/prototype.jpg" data-modal-title="Prototype révolutionnaire 2019">
+          <h2 class="mission-title">2019 : La phase de développement</h2>
+          <div class="mission-content">
+            <ul>
+              <li>18 mois de recherche et développement</li>
+              <li>Collaboration avec le CNRS</li>
+              <li>Brevet déposé en octobre 2019</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mission 3 -->
+        <div class="mission" data-image="../images/missions/lancement.jpg" data-modal-title="Lancement commercial 2020">
+          <h2 class="mission-title">2020 : Le lancement officiel</h2>
+          <div class="mission-content">
+            <ul>
+              <li>Première usine à Grenoble</li>
+              <li>50 000 unités vendues en 6 mois</li>
+              <li>Partenariat avec Nature & Découvertes</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mission 4 -->
+        <div class="mission" data-image="../images/missions/reforestation.jpg" data-modal-title="Engagement écologique 2021">
+          <h2 class="mission-title">2021 : Engagement écologique</h2>
+          <div class="mission-content">
+            <ul>
+              <li>5% des bénéfices reversés à des ONG</li>
+              <li>Programme de reforestation en Amazonie</li>
+              <li>Produits 100% recyclables</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mission 5 -->
+        <div class="mission" data-image="../images/missions/capteurs.jpg" data-modal-title="Innovation technologique 2022">
+          <h2 class="mission-title">2022 : Innovation technologique</h2>
+          <div class="mission-content">
+            <ul>
+              <li>Réseau de capteurs connectés</li>
+              <li>Prix de l'innovation écologique</li>
+              <li>Expansion internationale</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="fin">
+        Avec une vision audacieuse et un engagement sans faille, Airway ne se contente pas de vendre de l'air : elle redéfinit ce que signifie respirer dans un monde moderne.
+      </div>
     </div>
 
-
-    <div id="main-content" style="display: none;">
-
-      <nav id="header">
-        <div class="nav_box box0"> <a href="index.html"> Airway </a> </div>
-        <div class="box1">
-          <div class="nav_box box1_0"> <a href="index.html"> Accueil </a> </div>
-          <div class="nav_box box1_1"> <a href="services.html"> Services </a> </div>
-          <div class="nav_box box1_2"> <a href="#header" onclick="equipe()"> Equipe </a> </div>
-          <div class="nav_box box1_3"> <a href="contact.html"> Contact </a> </div>
-        </div>
-        <div class="nav_box box2"> <a href="a_propos.html"> A propos </a> </div>
-      </nav>
-
-      <br/><br/>
-
-      <div class="content">
-        <h1>Qui nous sommes :</h1>
-        <ul>
-
-          <li class="titres">2018 : La naissance de l'idée</li>
-          <ul>
-            <li>
-              Lors d’un trek dans les Alpes, Lucas Martin, fondateur d’Airway, réalise l’importance de l’air pur et décide de démocratiser cet élément vital.
-            </li>
-            <li>
-              Début des recherches sur la capture et le conditionnement d’air naturel.
-            </li>
-          </ul>
-
-          <li class="titres">2019 : La phase de développement</li>
-          <ul>
-            <li>
-              Constitution d’une équipe pluridisciplinaire composée de scientifiques, ingénieurs et spécialistes de l’environnement.
-            </li>
-            <li>
-              Développement d’un prototype capable de capturer et conserver l’air sans altération.
-            </li>
-            <li>
-              Identification des premiers sites de collecte : les Alpes suisses, les plages australiennes, et les forêts scandinaves.
-            </li>
-          </ul>
-
-          <li class="titres">2020 : Le lancement officiel</li>
-          <ul>
-            <li>
-              Airway est officiellement lancée en mai 2020.
-            </li>
-            <li>
-              Premier produit commercialisé : les capsules d’air pur, qui rencontrent un grand succès dans les grandes villes comme Paris, Tokyo et New York.
-            </li>
-            <li>
-              Lancement du slogan : "Respirez la différence."
-            </li>
-          </ul>
-
-          <li class="titres">2021 : Expansion et diversification</li>
-          <ul>
-            <li>
-              Introduction de nouvelles gammes : bouteilles rechargeables et diffuseurs d’air pur pour la maison.
-            </li>
-            <li>
-              Développement des partenariats avec des agences de voyage pour offrir des expériences "Airway" dans des lieux naturels emblématiques.
-            </li>
-            <li>
-              Airway commence à reverser 5 % de ses bénéfices à des ONG œuvrant pour la reforestation.
-            </li>
-          </ul>
-
-          <li class="titres">2022 : Une reconnaissance mondiale</li>
-          <ul>
-            <li>
-              Airway remporte le prix de l’innovation écologique lors du GreenTech World Summit.
-            </li>
-            <li>
-              Lancement de la boutique en ligne permettant une distribution mondiale.
-            </li>
-            <li>
-              Ouverture de bureaux dans 10 nouveaux pays, dont le Canada, l’Australie et l’Allemagne.
-            </li>
-          </ul>
-
-          <li class="titres">2023 : Sensibilisation et impact</li>
-          <ul>
-            <li>
-              Airway lance une campagne mondiale intitulée "Un souffle pour la planète", visant à sensibiliser sur la qualité de l’air.
-            </li>
-            <li>
-              Développement d’un réseau de capteurs connectés pour analyser la qualité de l’air en temps réel dans les villes partenaires.
-            </li>
-            <li>
-              Objectif atteint : 1 million de bouteilles vendues dans plus de 30 pays.
-            </li>
-          </ul>
-
-          <li class="titres">2024 : Airway, leader du bien-être respiratoire</li>
-          <ul>
-            <li>
-              Airway annonce un objectif ambitieux : capturer et purifier 10 millions de litres d’air d’ici 2025, tout en soutenant des projets écologiques à travers le monde.
-            </li>
-          </ul>
-
-        </ul> <br/>
-
-        <div class="fin">
-          Avec une vision audacieuse et un engagement sans faille, Airway ne se contente pas de vendre de l’air : elle redéfinit ce que signifie respirer dans un monde moderne. L’avenir d’Airway est de bâtir un monde où chaque respiration est une source de bien-être, d’énergie et de connexion à notre planète.
-        </div>
-
-      </div>
-
-      <footer>
-        <div class="contact logo">Airway</div>
+    <footer>
+      <div class="contact logo">Airway</div>
         
-        <div class="contact">
-          <img src="../images/telepone.png" alt="Icone téléphone">
-          <div id="phone_number" onclick="copyPhoneNumber('0230130560')">02 30 13 05 60</div>
-        </div>
+      <div class="contact">
+        <img src="../images/telepone.png" alt="Icone téléphone">
+        <div id="phone_number" onclick="copyPhoneNumber('0230130560')">02 30 13 05 60</div>
+      </div>
 
-        <div class="contact">
-          <img src="../images/adresse.png" alt="Icone adresse">
-          <div>Agence Airway <br> 33 Quater Avenue du Champ de Manœuvres <br>44470 Carquefou</div>
-        </div>
+      <div class="contact">
+        <img src="../images/adresse.png" alt="Icone adresse">
+        <div>Agence Airway <br> 33 Quater Avenue du Champ de Manœuvres <br>44470 Carquefou</div>
+      </div>
 
-        <div class="contact">
-          <img src="../images/email.png" alt="Icone email">
-          <p>Vous souhaitez nous contacter ? <br/>
-          <a href="mailto:airway-assistance@airway.com">airway-assistance@airway.com</a>
-          </p>
-        </div>
+      <div class="contact">
+        <img src="../images/email.png" alt="Icone email">
+        <p>Vous souhaitez nous contacter ? <br/>
+        <a href="mailto:airway-assistance@airway.com">airway-assistance@airway.com</a>
+        </p>
+      </div>
 
-        <div class="heure">
-          <div>
-            Heure actuelle : <span id="clock">--:--:--</span>
-          </div>
-          <div>
-            Temps passé sur la page : <span id="timer">0s</span>
-          </div>
+      <div class="heure">
+        <div>
+          Heure actuelle : <span id="clock">--:--:--</span>
+        </div>
+        <div>
+          Temps passé sur la page : <span id="timer">0s</span>
+        </div>
           
-        </div>
+      </div>
     
-      </footer>
-    
-    </div>
+    </footer>
+  </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
-    <script src="../js/loader.js" defer></script>
-    <script src="../js/general.js" defer></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <script src="../js/loader.js" defer></script>
+  <script src="../js/general.js" defer></script>
+  <script src="../js/a_propos.js" defer></script>
+</body>
 </html>

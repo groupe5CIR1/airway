@@ -145,3 +145,146 @@ footer {
   justify-content: space-between;
   background-color: #000000;
 }
+
+
+
+
+/*-----------------------Missions----------------------*/
+
+
+.missions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.mission {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.mission:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.mission-title {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 0.5rem;
+}
+
+.mission-content {
+  color: #34495e;
+  line-height: 1.6;
+}
+
+.mission-content ul {
+  padding-left: 1.5rem;
+}
+
+.mission-content li {
+  margin-bottom: 0.5rem;
+}
+
+/*----------------------Modales-----------------------*/
+
+.mouse {
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.modal {
+  cursor: auto;
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  animation: fadeIn 0.3s;
+}
+
+.modal-content {
+  cursor: default;
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 2rem;
+  width: 70%;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  position: relative;
+  animation: slideDown 0.4s;
+}
+
+.close-modal {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 2rem;
+  color: #aaa;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.close-modal:hover {
+  color: #333;
+}
+
+.modal-image {
+  cursor: default;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.modal-title {
+  cursor: default;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.modal-description {
+  cursor: default;
+  color: #34495e;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/*---------------Animations modales----------------*/
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/*----------------Responsive---------------------*/
+@media (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+    margin: 10% auto;
+    padding: 1.5rem;
+  }
+    
+  .mission {
+    padding: 1rem;
+  }
+}
