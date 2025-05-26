@@ -63,23 +63,35 @@
       </div>
     
       <footer>
-        <div class="contact">Airway</div>
+        <div class="contact logo">Airway</div>
         
         <div class="contact">
           <img src="../../images/telepone.png" alt="Icone téléphone">
-          <div>05 59 32 69 15</div>
+          <div id="phone_number" onclick="copyPhoneNumber('0230130560')">02 30 13 05 60</div>
         </div>
 
         <div class="contact">
           <img src="../../images/adresse.png" alt="Icone adresse">
-          <div>Agence Airway <br> 10, rue du Skibidi <br>44300 Nantes</div>
+          <div>Agence Airway <br> 33 Quater Avenue du Champ de Manœuvres <br>44470 Carquefou</div>
         </div>
 
         <div class="contact">
           <img src="../../images/email.png" alt="Icone email">
-          Vous souhaitez nous contacter ? <br>  
-          <a href="mailto:airway-assistance@airway.com"> airway-assistance@airway.com</a>  
+          <p>Vous souhaitez nous contacter ? <br/>
+          <a href="mailto:airway-assistance@airway.com">airway-assistance@airway.com</a>
+          </p>
         </div>
+
+        <div class="heure">
+          <div>
+            Heure actuelle : <span id="clock">--:--:--</span>
+          </div>
+          <div>
+            Temps passé sur la page : <span id="timer">0s</span>
+          </div>
+          
+        </div>
+    
       </footer>
     </div>
 

@@ -56,6 +56,9 @@ video {
   width: 100%;
 }
 
+
+/*---------------------Footer----------------------*/
+
 .contact {
   display: flex;
   align-items: center;
@@ -64,21 +67,25 @@ video {
   flex-wrap: wrap;
 }
 
-.box-contact {
-  display: grid;
-  align-items: center;
-  flex-grow: 1;
-  flex-wrap: wrap;
-}
-
-
 .contact img {
   width: 50px;
   height: 50px;
   margin-right: 15px;
 }
 
-footer{
+#phone_number:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.heure {
+  display: grid;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+footer {
   background-color: #ffffff;
   width: 100%;
   display: flex;

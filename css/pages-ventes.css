@@ -96,11 +96,13 @@ a:link, a:visited {
   text-decoration: none;
 }
 
+/*---------------------Footer----------------------*/
+
 .contact {
   display: flex;
   align-items: center;
-  margin: 15px 0;
-  flex-grow:1;
+  margin: 10px 0;
+  flex-grow: 1;
   flex-wrap: wrap;
 }
 
@@ -110,6 +112,18 @@ a:link, a:visited {
   margin-right: 15px;
 }
 
+#phone_number:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.heure {
+  display: grid;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
 footer {
   background-color: #ffffff;
   width: 100%;
@@ -117,7 +131,7 @@ footer {
   flex-grow: 1;
   flex-direction: row;
   justify-content: space-between;
-  padding-left:5em;
+  padding-left: 5em;
   flex-wrap: wrap;
   margin-top: 15em;
 }
