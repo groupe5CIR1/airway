@@ -31,6 +31,13 @@ body {
   height:20em;
 }
 
+.fleche_haut {
+  width: 20%;
+  height: 20%;
+  display: flex;
+  text-align: center;
+}
+
 h1 {
   margin-left: 5%;
 }
