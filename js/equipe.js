@@ -28,7 +28,7 @@ function setupScratchCard(name) {
     canvas.height = image.offsetHeight;
     
     // Crée la couche à gratter
-    ctx.fillStyle = '#333';
+    ctx.fillStyle = 'gray';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.globalCompositeOperation = 'destination-out';
     

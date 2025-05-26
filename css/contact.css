@@ -54,6 +54,75 @@ label {
   margin-right: 1em;
 }
 
+/*--------------------------Form--------------------------*/
+
+/*---Validation---*/
+.error-message {
+  color: #e74c3c;
+  font-size: 0.8em;
+  display: block;
+  margin-top: 5px;
+}
+
+.invalid {
+  border-color: #e74c3c;
+}
+
+/*---Modale du jeu---*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#guess-input {
+  margin: 10px;
+  padding: 8px;
+  width: 60px;
+}
+
+#guess-submit {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#guess-submit:hover {
+  background-color: #1a252f;
+}
+
+#game-result {
+  margin-top: 15px;
+  font-weight: bold;
+  min-height: 20px;
+}
+
+/*---Bouton désactivé---*/
+input[type="submit"]:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
 /*---------------------Footer----------------------*/
 
 .contact {
