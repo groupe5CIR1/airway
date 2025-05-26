@@ -44,9 +44,28 @@ em {
 }
 
 .image-valentin, .image-nicolas {
-  width:20%;
-  height:20%;
   border-radius: 50%;
+}
+
+.grattable {
+  text-align: center;
+  position: relative;
+  display: block;
+}
+
+.grattable canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px black solid;
+}
+
+.grattable canvas {
+  z-index: 2;
+  cursor: crosshair;
 }
 
 .equipe {
