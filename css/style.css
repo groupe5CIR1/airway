@@ -5,7 +5,12 @@ body {
   padding: 0;
 }
 
-.main-content {
+/*
+In index.html specifically, main-content and middle-content share the same style.
+Please be careful when modifying their shared style.
+*/
+.main-content,
+.middle-content {
   margin: 0;
   padding: 0;
   background-color: white;
@@ -26,12 +31,12 @@ body {
   flex-wrap: wrap;
 }
 
-.main-content h1 {
+.middle-content h1 {
   font-size: 36px;
   color: #333;
 }
 
-.main-content p {
+.middle-content p {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
@@ -54,6 +59,23 @@ body {
 
 video {
   width: 100%;
+}
+
+
+/*------------Animation du slogan-----------------*/
+
+.animated-slogan {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  will-change: transform;
+}
+
+.animated-slogan span {
+  opacity: 0;
+  display: inline-block;
+  transition: opacity 0.5s ease-out;
 }
 
 
