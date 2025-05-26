@@ -1,26 +1,60 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const canvas = document.querySelector(".canvas-valentin");
-    const context = canvas.getContext("2d");
-  
-    // Remplir d'un calque gris à gratter
-    context.fillStyle = "gray";
-    context.fillRect(0, 0, canvas.width, canvas.height);
 
-    function effacer(x, y) {
-        context.globalCompositeOperation = "destination-out"; // pour effacer 
-        context.beginPath(); // debut du dessin 
-        context.arc(x, y, 20, 0, Math.PI * 2); // cercle de rayon 20
-        context.fill(); // remplir de l'effacement
-        context.globalCompositeOperation = "source-over";
-    };
+/*------------------------------------Grattage---------------------------------------*/
+
+// Attendre que le loader ait fini
+document.addEventListener('DOMContentLoaded', () => {
+    const checkLoader = setInterval(() => {
+        if (document.getElementById('main-content') && document.getElementById('main-content').style.display !== 'none') {
+            clearInterval(checkLoader);
+            initScratchCards();
+        }
+    }, 100);
+});
+
+// Initialise les cartes à gratter
+function initScratchCards() {
+    setupScratchCard('valentin');
+    setupScratchCard('nicolas');
+}
+
+function setupScratchCard(name) {
+    // Récupère les données pour chaque carte
+    const canvas = document.getElementById(`canvas-${name}`);
+    const ctx = canvas.getContext('2d');
+    const image = document.querySelector(`.image-${name}`);
     
+    // Dimensionne le canvas à l'image
+    canvas.width = image.offsetWidth;
+    canvas.height = image.offsetHeight;
     
-    // Grattage à la souris
-    canvas.addEventListener("mousemove", (e) =>{
+    // Crée la couche à gratter
+    ctx.fillStyle = '#333';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.globalCompositeOperation = 'destination-out';
+    
+    const radius = 20;
+    
+    // Grattage au survol
+    canvas.addEventListener('mousemove', (e) => {
+        const rect = canvas.getBoundingClientRect();
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
-        effacer(x, y);
+        
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.fill();
     });
 
-});
+    // Support tactile
+    canvas.addEventListener('touchmove', (e) => {
+        e.preventDefault();
+        const rect = canvas.getBoundingClientRect();
+        const x = e.touches[0].clientX - rect.left;
+        const y = e.touches[0].clientY - rect.top;
+        
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.fill();
+    });
+}
 
