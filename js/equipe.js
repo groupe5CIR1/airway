@@ -1,7 +1,7 @@
 
 /*------------------------------------Grattage---------------------------------------*/
 
-// Attendre que le loader ait fini
+// Attend que le loader ait fini
 document.addEventListener('DOMContentLoaded', () => {
     const checkLoader = setInterval(() => {
         if (document.getElementById('main-content') && document.getElementById('main-content').style.display !== 'none') {
